@@ -57,7 +57,7 @@ Display Perf profile in JSON or YAML:
 <pre class='codeblock-pre'>
 <div class='codeblock'>
 <div class='clipboardjs'>
-mesheryctl perf result -o json
+mesheryctl perf profile -o json
 
 </div>
 </div>
@@ -66,7 +66,7 @@ mesheryctl perf result -o json
 <pre class='codeblock-pre'>
 <div class='codeblock'>
 <div class='clipboardjs'>
-mesheryctl perf result -o yaml
+mesheryctl perf profile -o yaml
 
 </div>
 </div>
@@ -103,5 +103,6 @@ Go back to [command reference index](/reference/mesheryctl/), if you want to add
 Section pages:
 
 - [mesheryctl-perf-apply](/reference/mesheryctl/perf/apply/)
+- [mesheryctl-perf-delete](/reference/mesheryctl/perf/delete/)
 - [mesheryctl-perf-profile](/reference/mesheryctl/perf/profile/)
 - [mesheryctl-perf-result](/reference/mesheryctl/perf/result/)
